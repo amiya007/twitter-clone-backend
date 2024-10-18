@@ -15,12 +15,12 @@ passportAuth(passport);
 
 app.use('/api', apiRoutes);
 // app.use('/', (req,res) => {
-//     res.json({message: 'kjdnj'})
+//     res.json({message: 'API Running'})
 // })
 
 
 app.listen(3000, async () => {
-    console.log(`Server started on `);
+    console.log(`Server started on 3000`);
     await connect();
     console.log('MongoDB connected');
 });     
